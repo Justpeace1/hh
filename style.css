@@ -1,0 +1,52 @@
+body {
+    line-height: 2;
+    background-color: #f4c244;
+}
+
+.container {
+    background-color: white;
+    width: 25%;
+    padding: 2%;
+    margin: auto;
+    border-color: black;
+    border-radius: 20px;
+    box-shadow: 20px 15px 2px;
+}
+
+img {
+    width: 100%;
+}
+
+button {
+   padding: 10px 25px;
+   font-weight: bold;
+   font-size: 20px;
+   background-color:  #f4c244;
+   border-color: #f4c244;
+}
+
+h4 {
+    font-size: 16px;
+    line-height: 0.5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hh {
+    color: #f4c244;
+}
+
+p {
+    margin-top: -5%;
+    width: 100%;
+    color: grey;
+    font-weight: 600;
+    font-size: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+@media screen and (max-width: 1440px) {
+    .container {
+        width: 60%;
+    }
+}
